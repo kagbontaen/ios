@@ -1,3 +1,32 @@
-theme: jekyll-theme-minimal
-title: Kagbontaen's homepage
-description: Bookmark this to keep an eye on my project updates!
+
+# 
+# 1. SITE SETTINGS
+# 
+title: "📱 Kagbontaen's iOS Development Repository"
+description: |
+  A collection of tools, scripts, and files for personal iOS device analysis and development.
+baseurl: "/ios" # The subpath of your site, e.g. /blog
+url: "https://kagbontaen.github.io" # The base hostname & protocol for your site
+repository: "kagbontaen/ios"
+
+# 
+# 2. THEME AND BUILD SETTINGS
+# 
+remote_theme: pages-themes/slate@v0.2.0 # You can replace 'slate' with another theme like 'minimal', 'cayman', or 'dinky'
+plugins:
+  - jekyll-remote-theme
+  - jekyll-relative-links
+
+# 
+# 3. NAVIGATION (This creates links in your site's header)
+# 
+header_pages:
+  - index.md
+  - usage.md
+  - license.md
+
+# 
+# 4. CUSTOM VARIABLES
+# 
+github:
+  is_project_page: true
